@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>First Self  Made Game</title>
+    <link rel="stylesheet" href="css.css">
+
+</head>
+<body>
+    <script>
+        window.alert('Welcome!')
+    </script>
+
+    <script src = 'javascript.js'></script>
+
+    <pre id = 'wesleyIntro' style = "font-size: 25px">
+        This is a Game.
+        Yes a GAME!
+        This is a game where you find clues and give me single word answers to continue.
+        Now lets begin.
+
+
+        All answers for right now are case sensitive so please respond in all lower case
+        unless the question deems otherwise.
+        Thank You.
+    </pre>
+
+    <p style = "font-size: 100px"> Question Number One. <br> Do you want to play the game? Yes or No? Well, if you don't want to play then just leave. It doesn't hurt my feelings. No it doesn't. Im sure someone else would love to play the game. Unless you do want to play then <br> <br>Just Say Yes </p>
+<div>
+    <label for="answerOne"></label>
+    <input type="text" id="answerOne" value = ''>
+</div>
+    <button onclick = "buttonAnswerOne()">Submit Your Answer</button>
+
+    <div id = "questionTwo" style = 'display: none'>
+        <br><br><br><br><br> <p style = 'font-size: 70px'>Lovely then lets begin!</p>
+        <p style = "font-size: 100px"> ON TWO QUESTION T0O!</p><br>
+        <p style="font-size: 50px"> Question 2: <br>
+            <span style="color: red">S</span> <span style="color: blue">U </span> <span style="color: purple">P </span><span style="color: pink">E </span><span style="color: darkgreen">R </span><span style="color: red">C </span> <span style="color: blue">A </span> <span style="color: purple">L </span><span style="color: pink">I </span><span style="color: darkgreen">F </span><span style="color: red">R </span><span style="color: blue">A </span><span style="color: purple">G </span><span style="color: pink">I </span><span style="color: darkgreen">L </span><span style="color: red">I </span><span style="color: blue">S </span><span style="color: purple">F </span><span style="color: pink">I </span><span style="color: darkgreen">E </span><span style="color: red">X </span><span style="color: blue">P </span><span style="color: purple">I </span><span style="color: pink">D </span><span style="color: darkgreen">O </span><span style="color: red">C </span><span style="color: blue">I </span><span style="color: purple">O </span><span style="color: pink">U </span><span style="color: darkgreen">S</span> <br><br>
+            is how you spell supercalifragilisticexpialidocious. Now it would be lovely <br> if you could repeat it back to me so, spell it.
+        </p>
+
+        <div>
+            <label for="answerTwo"></label>
+            <input type="text" id="answerTwo" value = ''>
+        </div>
+        <button onclick = "buttonAnswerTwo()">Submit Your Answer</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id = questionThree style = 'display: none'>
+        <span style="font-size: 50px">This question is </span><span style = "font-size: 30px">really</span> really <span style ="font-size: 10px">tiny.</span>
+
+    <p style="font-size: 3px">
+        Question Tree: <br>
+        I mustache you a question. Can you read this? If so type <u>your mustache is amazing</u> in the answer box.
+    </p>
+        <div>
+            <label for="answerThree"></label>
+            <input type="text" id="answerThree" value = ''>
+        </div>
+        <button onclick = "buttonAnswerThree()">Submit Your Answer</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id = questionFour style = 'display: none'>
+        <p style="font-size: 40px">Oh thank you! I know it looks so good. Your the fifth person to compliment me today.<br>
+        now on to question four<br>
+        Question <span id = "for">For</span>:<br>
+        What is 2 + 2?
+        </p>
+
+        <div>
+            <label for="answerFourAnd1/6"></label>
+            <input type="text" id="answerFourAnd1/6" value = ''>
+        </div>
+        <button onclick = "buttonAnswerFourAnd1()">Submit Your Answer</button>
+        <P style="font-size: 45px; color: darkred"> Oh no, this isn't right. Umm just press the button to fix the questions number.</P>
+    </div>
+
+    <div class = 'move' id = questionFourTwo style = ' display: none'>
+            <label for="answerFourAnd2/6"></label>
+            <input type="text" id="answerFourAnd2/6" value = ''>
+            <br>
+            <button onclick = "buttonAnswerFourAnd2()">Submit Your Answer</button>
+    </div>
+
+    <div class = 'moveTwo' id = questionFourThree style = 'display: none'>
+        <label for="answerFourAnd3/6"></label>
+        <input type="text" id="answerFourAnd3/6" value = ''>
+        <br>
+        <button onclick = "buttonAnswerFourAnd3()">Submit Your Answer</button>
+    </div>
+
+    <div class = 'moveThree' id = questionFourFour style = 'display: none'>
+        <label for="answerFourAnd4/6">Click the button already!</label><br>
+        <input type="text" id="answerFourAnd4/6" value = ''>
+        <br>
+        <button onclick = "buttonAnswerFourAnd4()">Submit Your Answer</button>
+    </div>
+
+    <div class = 'moveFour' id = questionFourFive style = 'display: none'>
+        <label for="answerFourAnd5/6">Oh come on! Just click the button!</label><br>
+        <input type="text" id="answerFourAnd5/6" value = ''>
+        <br>
+        <button onclick = "buttonAnswerFourAnd5()">Submit Your Answer</button>
+    </div>
+
+    <div class = 'moveFive' id = questionFourSix style = 'display: none'>
+        <label for="answerFourAnd6/6">JUST CLICK THE BUTTON!</label><br>
+        <input type="text" id="answerFourAnd6/6" value = ''>
+        <br>
+        <button onclick = "buttonAnswerFourAnd6()">Submit Your Answer</button>
+    </div>
+    <div id = questionFive style = 'display: none'>
+        <p style="font-size: 75px">
+            You know what just leave it and Lets just move on!
+           <br><br><br><span style="font-size: 80px">YES!!!</span>
+            <br><br><span style="font-size: 90px">JUST</span>
+            <br><br><span style="font-size: 100px">LEAVE</span>
+            <br><br><span style="font-size: 110px;">IT</span>
+            <br><br><span style="font-size: 120px">ALONE!</span>
+        </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div>
+           <span style="font-size: 55px">Question Five:
+               <br>
+               Find All the images and spell out your answer sentence using the first word from each picture.</span>
+            <br>
+            <span style="font-size: 35px">(hint use inspect and change height and width of image i,d, and m)</span>
+            <br>
+            <br>
+            <br>
+            <br>
+            <img id = "i image" src="i%20image.jpeg" alt = "i image" width="1px" height="1px">
+            <img id = "m image" src="m%20image.jpeg" alt = "m image" width="1px" height="1px">
+            <img id = "d image" src="d%20image.jpeg" alt = "d image" width="1px" height="1px">
+        </div>
+
+        <label for="answerFive"></label>
+        <input type="text" id="answerFive" value = ''>
+        <br>
+        <button onclick = "buttonAnswerFive()">Submit Your Answer</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="questionSix" style="display: none">
+        Yes you are dumb. Big dumb. Your so dumb you played the game just to find out that if you said i am dumb at the very beginning you would have won Any ways here is your achievement for finishing the game.
+        <br>
+        <br>
+    <img src="Dummy.jpeg" alt="Your Dumb Trophy" height="1000" width="1500">
+    </div>
+
+
+</body>
+</html>
